@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1MpW+rlBP52Afw0XI12gzMFsMq/0I3/b1HE9re6+7RqzORLoX6KtqS2FQ+jj3JDcvtDKcBN6dVLaktfihvQwWA==",
+  "success": true,
+  "projectFilePath": "/home/frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Core/Hoi4ModTool.Core.csproj",
+  "expectedPackageFiles": [
+    "/home/frityet/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
