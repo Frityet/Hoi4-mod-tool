@@ -5,6 +5,7 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
     <ItemGroup>
+        <Folder Include="Controls" />
         <Folder Include="Models\" />
         <AvaloniaResource Include="Assets\**" />
     </ItemGroup>
@@ -14,5 +15,8 @@
         <PackageReference Include="Avalonia.Diagnostics" Version="0.10.3" />
         <PackageReference Include="Avalonia.ReactiveUI" Version="0.10.3" />
         <PackageReference Include="System.CommandLine" Version="2.0.0-beta1.21308.1" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Hoi4ModTool.Common\Hoi4ModTool.Common.csproj" />
     </ItemGroup>
 </Project>

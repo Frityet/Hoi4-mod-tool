@@ -3,15 +3,67 @@
         xmlns:vm="using:Hoi4ModTool.UI.ViewModels"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        mc:Ignorable="d" d:DesignWidth="512" d:DesignHeight="1024"
         x:Class="Hoi4ModTool.UI.Views.MainWindow"
         Icon="/Assets/avalonia-logo.ico"
-        Title="Hoi4ModTool.UI">
+        Title="Hearts of Iron IV Mod Tool"
+        
+        TransparencyLevelHint="AcrylicBlur"
+        Background="Transparent">
 
     <Design.DataContext>
         <vm:MainWindowViewModel/>
     </Design.DataContext>
 
-    <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    <Panel>
+        <ExperimentalAcrylicBorder IsHitTestVisible="False">
+            <ExperimentalAcrylicBorder.Material>
+                <ExperimentalAcrylicMaterial
+                    BackgroundSource="Digger"
+                    TintColor="Black"
+                    TintOpacity="1"
+                    MaterialOpacity="0.65" />
+            </ExperimentalAcrylicBorder.Material>
+        </ExperimentalAcrylicBorder>
+        
+        <Label FontSize="32" FontWeight="ExtraBold" HorizontalAlignment="Center">HOI4 Mod Tool</Label>
+        
+        <StackPanel Margin="10 100" VerticalAlignment="Top" HorizontalAlignment="Center" Name="Inputs">
+            <StackPanel Name="CountryOptions">
+                <Label Margin="10 10" FontSize="16" VerticalAlignment="Top" HorizontalAlignment="Center" FontWeight="ExtraBold" Content="Country Options:"/>
+                
+                <TextBox Margin="10, 5" Width="256">Country Name</TextBox>
+                <TextBox Margin="10, 5" Width="256">Country Tag</TextBox>
+            </StackPanel>
+            
+            <StackPanel Name="LeaderOptions">
+                <Label Margin="10 10" FontSize="16" VerticalAlignment="Top" HorizontalAlignment="Center" FontWeight="ExtraBold" Content="Leader Options:"/>
+                
+                <TextBox Margin="10, 5" Width="256">Leader Name</TextBox>
+                
+                <ComboBox Name="LeaderIdeology" Width="256" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+
+            </StackPanel>
+            
+            <StackPanel Name="PartyPopularities">
+                <Label Margin="10 10" FontSize="16" VerticalAlignment="Top" HorizontalAlignment="Center" FontWeight="ExtraBold" Content="Party Options:"/>
+                
+                <Label HorizontalAlignment="Center">Fascism Popularity</Label>
+                <Slider Name="FascismPopularity" Width="256"/>
+                
+                <Label HorizontalAlignment="Center">Communism Popularity</Label>
+                <Slider Name="CommunismPopularity" Width="256"/>
+                
+                <Label HorizontalAlignment="Center">Democracy Popularity</Label>
+                <Slider Name="DemocracyPopularity" Width="256"/>
+                
+                <Label HorizontalAlignment="Center">Non-Aligned Popularity</Label>
+                <Slider Name="NonAlignedPopularity" Width="256"/>
+                
+                <ComboBox Name="RulingParty" Width="256" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+
+            </StackPanel>
+        </StackPanel>
+    </Panel>
 
 </Window>
