@@ -9,9 +9,12 @@
 
 using std::string;
 
-struct {
-    const string NAME = "HOI4 Mod Tool";
-    const string VERSION = "1.0.0";
-} programInfo;
+namespace HOI4ModTool {
+    struct {
+        const string NAME = "HOI4 Mod Tool";
+        const string VERSION = "1.0.0";
+    } programInfo;
+
+}
 
 #endif //HOI4_MOD_TOOL_METADATA

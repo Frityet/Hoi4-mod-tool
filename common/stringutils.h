@@ -9,6 +9,8 @@
 
 using std::string;
 
-string concatStrings(string, string);
-
+namespace HOI4ModTool {
+    string concatStrings(string,
+                         string);
+}
 #endif //HOI4_MOD_TOOL_STRINGUTILS

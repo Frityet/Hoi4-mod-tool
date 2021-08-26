@@ -9,8 +9,13 @@
 
 using std::string;
 
-int print(string);
+namespace HOI4ModTool {
 
-int println(string);
+
+    int print(string);
+
+    int println(string);
+
+}
 
 #endif //HOI4_MOD_TOOL_LOGGING
