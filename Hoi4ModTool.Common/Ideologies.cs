@@ -82,6 +82,7 @@ namespace Hoi4ModTool.Common
             { NonAligned.Moderatism, "non aligned-moderatism" },
             { NonAligned.Centrism, "non aligned-centrism" },
         };
+        
         #endregion
         
         public enum Parties
@@ -91,6 +92,14 @@ namespace Hoi4ModTool.Common
             Democracy,
             NonAligned
         }
+
+        public static readonly Dictionary<Parties, string> PARTY_NAMES = new Dictionary<Parties, string>()
+        {
+            { Parties.Fascism, "Fascism" },
+            { Parties.Communism, "Communism" },
+            { Parties.Democracy, "Democracy" },
+            { Parties.NonAligned, "Non-Aligned" }
+        };
 
         public static readonly Dictionary<Parties, Enum[]> PARTY_IDEOLOGIES = new Dictionary<Parties, Enum[]>()
         {
