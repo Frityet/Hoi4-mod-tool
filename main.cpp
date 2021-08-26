@@ -1,9 +1,9 @@
 #include <iostream>
 
-#include "common.h"
+#include "utilities.h"
 
 int main()
 {
-    std::cout << program_info.NAME << " v" << program_info.VERSION << std::endl;
+    println(concatStrings(concatStrings(programInfo.NAME, " v"), programInfo.VERSION));
     return 0;
 }
