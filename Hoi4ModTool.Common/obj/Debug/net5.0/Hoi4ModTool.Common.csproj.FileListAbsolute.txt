@@ -10,3 +10,15 @@
 /home/frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Common/obj/Debug/net5.0/Hoi4ModTool.Common.dll
 /home/frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Common/obj/Debug/net5.0/ref/Hoi4ModTool.Common.dll
 /home/frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Common/obj/Debug/net5.0/Hoi4ModTool.Common.pdb
+/Users/Frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Common/bin/Debug/net5.0/Hoi4ModTool.Common.deps.json
+/Users/Frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Common/bin/Debug/net5.0/Hoi4ModTool.Common.dll
+/Users/Frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Common/bin/Debug/net5.0/ref/Hoi4ModTool.Common.dll
+/Users/Frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Common/bin/Debug/net5.0/Hoi4ModTool.Common.pdb
+/Users/Frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Common/obj/Debug/net5.0/Hoi4ModTool.Common.csproj.AssemblyReference.cache
+/Users/Frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Common/obj/Debug/net5.0/Hoi4ModTool.Common.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Common/obj/Debug/net5.0/Hoi4ModTool.Common.AssemblyInfoInputs.cache
+/Users/Frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Common/obj/Debug/net5.0/Hoi4ModTool.Common.AssemblyInfo.cs
+/Users/Frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Common/obj/Debug/net5.0/Hoi4ModTool.Common.csproj.CoreCompileInputs.cache
+/Users/Frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Common/obj/Debug/net5.0/Hoi4ModTool.Common.dll
+/Users/Frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Common/obj/Debug/net5.0/ref/Hoi4ModTool.Common.dll
+/Users/Frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Common/obj/Debug/net5.0/Hoi4ModTool.Common.pdb

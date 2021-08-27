@@ -27,7 +27,7 @@ namespace Hoi4ModTool.UI.Views
 
             var rulingParty = this.Find<ComboBox>("RulingParty");
             rulingParty.Items = Ideologies.PARTY_NAMES.Values;
-            leaderIdeology.SelectedIndex = 0;
+            leaderIdeology.SelectedIndex = 1;
         }
     }
 }
