@@ -20,7 +20,7 @@ namespace Hoi4ModTool.UI
                 desktop.MainWindow = new MainWindow
                 {
                     DataContext = new MainWindowViewModel(),
-                    CanResize = false
+                    //CanResize = false
                 };
             }
 

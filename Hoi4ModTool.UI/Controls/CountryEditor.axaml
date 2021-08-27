@@ -1,0 +1,109 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="using:Hoi4ModTool.UI.ViewModels"
+             xmlns:avaloniaColorPicker="clr-namespace:AvaloniaColorPicker;assembly=AvaloniaColorPicker"
+             MinWidth="875"
+             MaxWidth="875"
+        
+             Height="712"
+             x:Class="Hoi4ModTool.UI.Controls.CountryEditor">
+    
+    <Design.DataContext>
+        <vm:CountryEditorViewModel/>
+    </Design.DataContext>
+    
+        
+        
+        
+        <ScrollViewer HorizontalAlignment="Right">
+        
+        <StackPanel Margin="10 10" VerticalAlignment="Top" HorizontalAlignment="Center" Name="Inputs">
+            
+            <StackPanel Name="CountryOptions">
+                
+                <TextBox Margin="10, 5" Width="512">Country Name</TextBox>
+                <TextBox Margin="10, 5" Width="512">Country Tag</TextBox>
+                
+                <Label Margin="0 10 0 0" 
+                       FontSize="16" 
+                       HorizontalAlignment="Center" 
+                       VerticalAlignment="Bottom" 
+                       FontWeight="ExtraBold" 
+                       Content="Country Colour"/>
+                
+                <avaloniaColorPicker:ColorPicker Name="CountryColour"/>
+            </StackPanel>
+            
+            <StackPanel Name="LeaderOptions">
+                <Label Margin="10 10" 
+                       FontSize="16" 
+                       VerticalAlignment="Top" 
+                       HorizontalAlignment="Center" 
+                       FontWeight="ExtraBold" 
+                       Content="Leader Options"/>
+                
+                <TextBox Margin="10, 5" Width="512">Leader Name</TextBox>
+                
+                <ComboBox Name="LeaderIdeology" 
+                          Width="512" 
+                          VerticalAlignment="Top" 
+                          HorizontalAlignment="Center"
+                          
+                          Items="{Binding IdeologyNames}"
+                          SelectedIndex="0"/>
+
+                
+            </StackPanel>
+            
+            <StackPanel Name="PartyPopularities">
+                <Label Margin="10 10" 
+                       FontSize="16" 
+                       VerticalAlignment="Top" 
+                       HorizontalAlignment="Center" 
+                       FontWeight="ExtraBold" 
+                       Content="Party Options"/>
+                
+                <Label HorizontalAlignment="Center">Fascism Popularity</Label>
+                <NumericUpDown Name="FascismPopularity" Width="512" Minimum="0" Maximum="100"/>
+                
+                <Label Margin="10 10 10 0" HorizontalAlignment="Center">Communism Popularity</Label>
+                <NumericUpDown Name="CommunismPopularity" Width="512" Minimum="0" Maximum="100"/>
+                
+                <Label Margin="10 10 10 0" HorizontalAlignment="Center">Democracy Popularity</Label>
+                <NumericUpDown Name="DemocracyPopularity" Width="512" Minimum="0" Maximum="100"/>
+                
+                <Label Margin="10 10 10 0" HorizontalAlignment="Center">Non-Aligned Popularity</Label>
+                <NumericUpDown Name="NonAlignedPopularity" Width="512" Minimum="0" Maximum="100"/>
+                
+                <Label Margin="10 10 10 0" HorizontalAlignment="Center">Ruling Party</Label>
+                <ComboBox Name="RulingParty" 
+                          Width="512" 
+                          VerticalAlignment="Top" 
+                          HorizontalAlignment="Center"
+                          
+                          Items="{Binding PartyNames}"/>
+            </StackPanel>
+            
+            <StackPanel Name="CountryStats">
+                <Label Margin="10 10" 
+                       FontSize="16" 
+                       VerticalAlignment="Top" 
+                       HorizontalAlignment="Center" 
+                       FontWeight="ExtraBold" 
+                       Content="Country Statistics"/>
+                
+                <Label HorizontalAlignment="Center">Research Slots</Label>
+                <NumericUpDown Name="ResearchSlots" Width="512" Minimum="0"/>
+                
+                <Label Margin="10 10 10 0" HorizontalAlignment="Center">War Support</Label>
+                <NumericUpDown Name="WarSupport" Width="512" Minimum="0" Maximum="100"/>
+                
+                <Label Margin="10 10 10 0" HorizontalAlignment="Center">Stability</Label>
+                <NumericUpDown Name="Stability" Width="512" Minimum="0" Maximum="100"/>
+            </StackPanel>
+            
+        </StackPanel>
+        </ScrollViewer>
+</UserControl>

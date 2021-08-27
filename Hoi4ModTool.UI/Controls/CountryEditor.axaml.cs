@@ -1,20 +1,14 @@
-using System.Collections.Generic;
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
-using Hoi4ModTool.Common;
 
-namespace Hoi4ModTool.UI.Views
+namespace Hoi4ModTool.UI.Controls
 {
-    public partial class MainWindow : Window
+    public class CountryEditor : UserControl
     {
-
-        public MainWindow()
+        public CountryEditor()
         {
             InitializeComponent();
-#if DEBUG
-            this.AttachDevTools();
-#endif
         }
 
         private void InitializeComponent()
