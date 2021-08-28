@@ -1,4 +1,6 @@
 namespace Hoi4ModTool.Core
+
+using Ideologies.Parties;
 {
     public class Country
     {
@@ -6,10 +8,19 @@ namespace Hoi4ModTool.Core
 
         public string CountryTag { get; set; }
         
-        public string CountryRulingParty { get; set; }
+        public Ideologies.Parties CountryRulingParty { get; set; }
 
-        public string CountryCulture { get; set; }
+        public enum CountryCulture
+        {
+            
+        }
 
-        public string CountryColor { get; set; }
+
+        public int CapitalStateId { get; set;}
+
+        public int ResearchSlots { get; set;}
+
+
+        public int CountryColor { get; set; }
     }
 }
