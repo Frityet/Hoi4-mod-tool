@@ -1,26 +1,26 @@
-namespace Hoi4ModTool.Core
+using System;
+using System.Drawing;
 
-using Ideologies.Parties;
+namespace Hoi4ModTool.Core
 {
     public class Country
     {
-        public string CountryName { get; set; }
+        public string Name                      { get; set; }
+        public string Tag                       { get; set; }
+        public Color Colour                     { get; set; }
+        public Ideologies.Parties RulingParty   { get; set; }
+        public PartySupport PartySupport        { get; set; }
+        public int StateId                      { get; set; }
+        public int ResearchSlots                { get; set; }
+        public int Stability                    { get; set; }
+        public int WarSupport                   { get; set; }
+    }
 
-        public string CountryTag { get; set; }
-        
-        public Ideologies.Parties CountryRulingParty { get; set; }
-
-        public enum CountryCulture
-        {
-            
-        }
-
-
-        public int CapitalStateId { get; set;}
-
-        public int ResearchSlots { get; set;}
-
-
-        public int CountryColor { get; set; }
+    public class PartySupport
+    {
+        public int Democracy    { get; set; }
+        public int Communism    { get; set; }
+        public int Fascism      { get; set; }
+        public int NonAligned   { get; set; }
     }
 }

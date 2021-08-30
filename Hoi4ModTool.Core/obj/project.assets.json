@@ -1340,6 +1340,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "Hoi4ModTool.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Hoi4ModTool.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Hoi4ModTool.Common.dll": {}
+        }
       }
     }
   },
@@ -4855,11 +4865,17 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "Hoi4ModTool.Common/1.0.0": {
+      "type": "project",
+      "path": "../Hoi4ModTool.Common/Hoi4ModTool.Common.csproj",
+      "msbuildProject": "../Hoi4ModTool.Common/Hoi4ModTool.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "CWTools >= 0.4.0-alpha4"
+      "CWTools >= 0.4.0-alpha4",
+      "Hoi4ModTool.Common >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4887,7 +4903,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/Frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Common/Hoi4ModTool.Common.csproj": {
+              "projectPath": "/Users/Frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Common/Hoi4ModTool.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

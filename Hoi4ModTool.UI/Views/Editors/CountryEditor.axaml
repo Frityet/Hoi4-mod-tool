@@ -1,7 +1,5 @@
 <UserControl xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:vm="using:Hoi4ModTool.UI.ViewModels"
              xmlns:avaloniaColorPicker="clr-namespace:AvaloniaColorPicker;assembly=AvaloniaColorPicker"
              MinWidth="875"
@@ -23,8 +21,8 @@
             
             <StackPanel Name="CountryOptions">
                 
-                <TextBox Margin="10, 5" Width="512">Country Name</TextBox>
-                <TextBox Margin="10, 5" Width="512">Country Tag</TextBox>
+                <TextBox Margin="10, 5" Width="512" Name="CountryName">Country Name</TextBox>
+                <TextBox Margin="10, 5" Width="512" Name="CountryTag">Country Tag</TextBox>
                 
                 <Label Margin="0 10 0 0" 
                        FontSize="16" 
@@ -44,15 +42,14 @@
                        FontWeight="ExtraBold" 
                        Content="Leader Options"/>
                 
-                <TextBox Margin="10, 5" Width="512">Leader Name</TextBox>
+                <TextBox Margin="10, 5" Width="512" Name="LeaderName">Leader Name</TextBox>
                 
-                <ComboBox Name="LeaderIdeology" 
-                          Width="512" 
+                <ComboBox Width="512" 
                           VerticalAlignment="Top" 
                           HorizontalAlignment="Center"
-                          
                           Items="{Binding IdeologyNames}"
-                          SelectedIndex="0"/>
+                          SelectedIndex="0"
+                          Name="LeaderIdeology" />
 
                 
             </StackPanel>
@@ -66,24 +63,25 @@
                        Content="Party Options"/>
                 
                 <Label HorizontalAlignment="Center">Fascism Popularity</Label>
-                <NumericUpDown Name="FascismPopularity" Width="512" Minimum="0" Maximum="100"/>
+                <NumericUpDown  Width="512" Minimum="0" Maximum="100" Name="FascismPopularity"/>
                 
                 <Label Margin="10 10 10 0" HorizontalAlignment="Center">Communism Popularity</Label>
-                <NumericUpDown Name="CommunismPopularity" Width="512" Minimum="0" Maximum="100"/>
+                <NumericUpDown  Width="512" Minimum="0" Maximum="100" Name="CommunismPopularity"/>
                 
                 <Label Margin="10 10 10 0" HorizontalAlignment="Center">Democracy Popularity</Label>
-                <NumericUpDown Name="DemocracyPopularity" Width="512" Minimum="0" Maximum="100"/>
+                <NumericUpDown  Width="512" Minimum="0" Maximum="100" Name="DemocracyPopularity"/>
                 
                 <Label Margin="10 10 10 0" HorizontalAlignment="Center">Non-Aligned Popularity</Label>
-                <NumericUpDown Name="NonAlignedPopularity" Width="512" Minimum="0" Maximum="100"/>
+                <NumericUpDown  Width="512" Minimum="0" Maximum="100" Name="NonAlignedPopularity"/>
                 
                 <Label Margin="10 10 10 0" HorizontalAlignment="Center">Ruling Party</Label>
-                <ComboBox Name="RulingParty" 
-                          Width="512" 
+                <ComboBox Width="512" 
                           VerticalAlignment="Top" 
                           HorizontalAlignment="Center"
                           
-                          Items="{Binding PartyNames}"/>
+                          Items="{Binding PartyNames}"
+                          
+                          Name="RulingParty"/>
             </StackPanel>
             
             <StackPanel Name="CountryStats">
@@ -95,13 +93,25 @@
                        Content="Country Statistics"/>
                 
                 <Label HorizontalAlignment="Center">Research Slots</Label>
-                <NumericUpDown Name="ResearchSlots" Width="512" Minimum="0"/>
+                <NumericUpDown  Width="512" Minimum="0" Name="ResearchSlots"/>
                 
                 <Label Margin="10 10 10 0" HorizontalAlignment="Center">War Support</Label>
-                <NumericUpDown Name="WarSupport" Width="512" Minimum="0" Maximum="100"/>
+                <NumericUpDown  Width="512" Minimum="0" Maximum="100" Name="WarSupport"/>
                 
                 <Label Margin="10 10 10 0" HorizontalAlignment="Center">Stability</Label>
-                <NumericUpDown Name="Stability" Width="512" Minimum="0" Maximum="100"/>
+                <NumericUpDown  Width="512" Minimum="0" Maximum="100" Name="Stability"/>
+            </StackPanel>
+            
+            <StackPanel Name="MiscSettings">
+                <Label Margin="10 10" 
+                       FontSize="16" 
+                       VerticalAlignment="Top" 
+                       HorizontalAlignment="Center" 
+                       FontWeight="ExtraBold" 
+                       Content="Misc Settings"/>
+                
+                <Label Margin="10 10 10 0" HorizontalAlignment="Center">Capital State ID</Label>
+                <NumericUpDown  Width="512" Minimum="0" Maximum="999" Name="CapitalStateID"/>
             </StackPanel>
             
         </StackPanel>

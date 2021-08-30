@@ -19,5 +19,12 @@
     </ItemGroup>
     <ItemGroup>
       <ProjectReference Include="..\Hoi4ModTool.Common\Hoi4ModTool.Common.csproj" />
+      <ProjectReference Include="..\Hoi4ModTool.Core\Hoi4ModTool.Core.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+      <Compile Update="Controls\Editors\CountryEditor.axaml.cs">
+        <DependentUpon>CountryEditor.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
     </ItemGroup>
 </Project>

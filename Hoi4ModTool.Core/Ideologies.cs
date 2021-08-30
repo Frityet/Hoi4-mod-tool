@@ -1,7 +1,8 @@
 using System;
 using System.Collections.Generic;
+using Hoi4ModTool.Common;
 
-namespace Hoi4ModTool.Common
+namespace Hoi4ModTool.Core
 {
     /// <remarks>
     /// 

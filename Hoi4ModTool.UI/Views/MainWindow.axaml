@@ -35,14 +35,19 @@
             </ExperimentalAcrylicBorder.Material>
         </ExperimentalAcrylicBorder>
         
-        <TabControl>
-            <TabItem Header="Country Editor">
-                <controls:CountryEditor Margin="10"/>
-            </TabItem>
-            
-            <TabItem Header="State Editor"></TabItem>
-            <TabItem Header="Ideology Editor"></TabItem>
-        </TabControl>
+        <DockPanel Name="TopBar">
+            <controls:DirectorySelect/>
+        </DockPanel>
+        
+        
+        <!-- <TabControl> -->
+        <!--     <TabItem Header="Country Editor"> -->
+        <!--         <controls:CountryEditor Margin="10"/> -->
+        <!--     </TabItem> -->
+        <!--      -->
+        <!--     <TabItem Header="State Editor"></TabItem> -->
+        <!--     <TabItem Header="Ideology Editor"></TabItem> -->
+        <!-- </TabControl> -->
     </Panel>
 
 </Window>

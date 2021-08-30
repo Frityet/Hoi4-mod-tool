@@ -8,6 +8,7 @@ namespace Hoi4ModTool.UI.Views
 {
     public partial class MainWindow : Window
     {
+        public static MainWindow Instance { get; private set; }
 
         public MainWindow()
         {
@@ -15,6 +16,8 @@ namespace Hoi4ModTool.UI.Views
 #if DEBUG
             this.AttachDevTools();
 #endif
+
+            Instance = this;
         }
 
         private void InitializeComponent()
