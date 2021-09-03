@@ -6,13 +6,21 @@ namespace Hoi4ModTool.Core
     public class Country
     {
         public string Name                      { get; set; }
+
         public string Tag                       { get; set; }
+
         public Color Colour                     { get; set; }
+
         public Ideologies.Parties RulingParty   { get; set; }
+
         public PartySupport PartySupport        { get; set; }
+
         public int StateId                      { get; set; }
+
         public int ResearchSlots                { get; set; }
+
         public int Stability                    { get; set; }
+        
         public int WarSupport                   { get; set; }
     }
 
