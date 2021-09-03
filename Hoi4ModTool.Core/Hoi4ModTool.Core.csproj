@@ -5,10 +5,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="CWTools" Version="0.4.0-alpha4" />
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\Hoi4ModTool.Common\Hoi4ModTool.Common.csproj" />
     </ItemGroup>
 
