@@ -28,6 +28,15 @@ namespace Hoi4ModTool.Core
 
             CollaboratorKing,
 
+            ImperialSanction,
+
+            EmperorShowa,
+
+            WW1Trauma,
+
+            StoutDefender,
+
+            Warmonger,
         }
 
     }
