@@ -10,6 +10,11 @@ namespace Hoi4ModTool.Core
 
         public string LeaderPicture { get; set; }
 
+    }
+
+    class LeaderIdeology
+    {
+        public string LeaderIdeology {get; set; }
 
 
 
