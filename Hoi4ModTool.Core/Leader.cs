@@ -15,7 +15,7 @@ namespace Hoi4ModTool.Core
 
 
         public LeaderTraits[] Traits { get; set; }
-
+// this gonna be a pain in the ass
         public enum LeaderTraits
         {
             Dictator,
