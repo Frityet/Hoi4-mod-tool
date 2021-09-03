@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "/home/frityet/.nuget/packages/": {}
+    "/Users/Frityet/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Core/Hoi4ModTool.Core.csproj",
+      "projectUniqueName": "/Users/Frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Core/Hoi4ModTool.Core.csproj",
       "projectName": "Hoi4ModTool.Core",
-      "projectPath": "/home/frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Core/Hoi4ModTool.Core.csproj",
-      "packagesPath": "/home/frityet/.nuget/packages/",
-      "outputPath": "/home/frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Core/obj/",
+      "projectPath": "/Users/Frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Core/Hoi4ModTool.Core.csproj",
+      "packagesPath": "/Users/Frityet/.nuget/packages/",
+      "outputPath": "/Users/Frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Core/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/frityet/.nuget/NuGet/NuGet.Config"
+        "/Users/Frityet/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -52,8 +52,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/home/frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Common/Hoi4ModTool.Common.csproj": {
-              "projectPath": "/home/frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Common/Hoi4ModTool.Common.csproj"
+            "/Users/Frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Common/Hoi4ModTool.Common.csproj": {
+              "projectPath": "/Users/Frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Common/Hoi4ModTool.Common.csproj"
             }
           }
         }
@@ -77,18 +77,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.204/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
       }
     }
   }
