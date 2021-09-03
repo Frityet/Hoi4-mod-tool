@@ -37,6 +37,11 @@ namespace Hoi4ModTool.Core
             StoutDefender,
 
             Warmonger,
+
+            InexperiencedImperialist,
+
+            AutocraticImperialist,
+            
         }
 
     }
