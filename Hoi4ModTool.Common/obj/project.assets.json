@@ -8,26 +8,25 @@
     "net5.0": []
   },
   "packageFolders": {
-    "/Users/Frityet/.nuget/packages/": {}
+    "C:\\Users\\Kimig\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Common/Hoi4ModTool.Common.csproj",
+      "projectUniqueName": "c:\\Users\\Kimig\\OneDrive\\Documents\\GitHub\\Hoi4-mod-tool\\Hoi4ModTool.Common\\Hoi4ModTool.Common.csproj",
       "projectName": "Hoi4ModTool.Common",
-      "projectPath": "/Users/Frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Common/Hoi4ModTool.Common.csproj",
-      "packagesPath": "/Users/Frityet/.nuget/packages/",
-      "outputPath": "/Users/Frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Common/obj/",
+      "projectPath": "c:\\Users\\Kimig\\OneDrive\\Documents\\GitHub\\Hoi4-mod-tool\\Hoi4ModTool.Common\\Hoi4ModTool.Common.csproj",
+      "packagesPath": "C:\\Users\\Kimig\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Kimig\\OneDrive\\Documents\\GitHub\\Hoi4-mod-tool\\Hoi4ModTool.Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/Frityet/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Kimig\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/bepinex/BepInEx/_packaging/BepInExLibs/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
@@ -59,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
