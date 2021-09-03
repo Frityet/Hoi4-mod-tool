@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2rFmIhL71d+6LGxnB04C+BVQYXwdwiZZ1GYLw61aRf3ZqbQwvAyzUfina2Vacrq5V85c3ZIW3u8sC4RfznTMgQ==",
+  "dgSpecHash": "gGK6RYN2qDaDsbmjFNgVwcH4BYfNZkgQ77y590gIVtaqMfeG76R+cdnoNOMIC/MNYYvI827SPbyKDu0WaR3ZJg==",
   "success": true,
-  "projectFilePath": "/home/frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Core/Hoi4ModTool.Core.csproj",
-  "expectedPackageFiles": [
-    "/home/frityet/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
-  ],
+  "projectFilePath": "/Users/Frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Core/Hoi4ModTool.Core.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
