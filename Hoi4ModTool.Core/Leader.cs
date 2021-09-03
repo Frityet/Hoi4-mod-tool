@@ -13,6 +13,23 @@ namespace Hoi4ModTool.Core
 
         public string LeaderIdeology {get; set; }
 
+
+        public LeaderTraits[] Traits { get; set; }
+
+        public enum LeaderTraits
+        {
+            Dictator,
+            
+            WarriorCode,
+
+            UnderageMonarch,
+
+            LegitimateHeir,
+
+            CollaboratorKing,
+
+        }
+
     }
 
 }
