@@ -20,13 +20,27 @@ namespace Hoi4ModTool.Core
 
         public enum StateBuildings
         {
-            Airports,
+            Airport,
 
             CivilianFactory,
 
             MilltaryFactory,
 
             Dockyard,
+
+            AntiAir,
+
+            SyntheicRefinery,
+
+            Silo,
+
+            Radar,
+
+            NavalBase,
+
+            AirBase,
+
+            Infrastructure,
 
         }
     }
