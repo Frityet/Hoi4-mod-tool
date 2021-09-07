@@ -22,3 +22,14 @@
 /Users/Frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Common/obj/Debug/net5.0/Hoi4ModTool.Common.dll
 /Users/Frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Common/obj/Debug/net5.0/ref/Hoi4ModTool.Common.dll
 /Users/Frityet/Documents/Hoi4-mod-tool/Hoi4ModTool.Common/obj/Debug/net5.0/Hoi4ModTool.Common.pdb
+C:\Users\Kimig\OneDrive\Documents\GitHub\Hoi4-mod-tool\Hoi4ModTool.Common\bin\Debug\net5.0\Hoi4ModTool.Common.deps.json
+C:\Users\Kimig\OneDrive\Documents\GitHub\Hoi4-mod-tool\Hoi4ModTool.Common\bin\Debug\net5.0\Hoi4ModTool.Common.dll
+C:\Users\Kimig\OneDrive\Documents\GitHub\Hoi4-mod-tool\Hoi4ModTool.Common\bin\Debug\net5.0\ref\Hoi4ModTool.Common.dll
+C:\Users\Kimig\OneDrive\Documents\GitHub\Hoi4-mod-tool\Hoi4ModTool.Common\bin\Debug\net5.0\Hoi4ModTool.Common.pdb
+C:\Users\Kimig\OneDrive\Documents\GitHub\Hoi4-mod-tool\Hoi4ModTool.Common\obj\Debug\net5.0\Hoi4ModTool.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kimig\OneDrive\Documents\GitHub\Hoi4-mod-tool\Hoi4ModTool.Common\obj\Debug\net5.0\Hoi4ModTool.Common.AssemblyInfoInputs.cache
+C:\Users\Kimig\OneDrive\Documents\GitHub\Hoi4-mod-tool\Hoi4ModTool.Common\obj\Debug\net5.0\Hoi4ModTool.Common.AssemblyInfo.cs
+C:\Users\Kimig\OneDrive\Documents\GitHub\Hoi4-mod-tool\Hoi4ModTool.Common\obj\Debug\net5.0\Hoi4ModTool.Common.csproj.CoreCompileInputs.cache
+C:\Users\Kimig\OneDrive\Documents\GitHub\Hoi4-mod-tool\Hoi4ModTool.Common\obj\Debug\net5.0\Hoi4ModTool.Common.dll
+C:\Users\Kimig\OneDrive\Documents\GitHub\Hoi4-mod-tool\Hoi4ModTool.Common\obj\Debug\net5.0\ref\Hoi4ModTool.Common.dll
+C:\Users\Kimig\OneDrive\Documents\GitHub\Hoi4-mod-tool\Hoi4ModTool.Common\obj\Debug\net5.0\Hoi4ModTool.Common.pdb
