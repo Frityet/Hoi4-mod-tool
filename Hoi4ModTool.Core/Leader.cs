@@ -60,6 +60,43 @@ namespace Hoi4ModTool.Core
 
             ConservativeGrandee,
 
+            ConservativeNationalist,
+
+            ConservativeNationalist,
+
+            ConstitutionalMonarch,
+
+            ConstitutionalMonarchMinor,
+
+            CorneredFox,
+            
+            CountofParis,
+
+            CristeroGeneral,
+
+            CrownRegent,
+
+            Dealbroker,
+
+            Defeatist,
+
+            DevotedTrotskyist,
+
+
+            Dictator,
+
+            DisdainforPoliticians1,
+
+            DisdainforPoliticians2,
+
+            DisgracedMonarch,
+
+            DislikesGermany,
+
+
+
+
+
 
         }
 
