@@ -93,7 +93,51 @@ namespace Hoi4ModTool.Core
 
             DislikesGermany,
 
+            DividedInterests,
 
+            DukeofOrleans,
+
+            EagerCollaborator,
+
+            EconomicReformer,
+            
+            ElJefeMaximo,
+
+            EmergencyPowers,
+
+            EmperorShowa,
+
+            EmpireBuilder,
+
+            Exiled,
+
+            ExiledRevolutionary,
+
+            FaceLicker,
+
+            FamousAviator,
+
+            FascistMilitiaLeader,
+
+            FascistSympathies,
+
+            FatheroftheTurks,
+
+            FigureheadPresident,
+
+            FirstLady,
+
+            Generallissimo,
+
+            GreatArchitect,
+
+            GreatSurvivor,
+
+            GreatWarHero,
+
+            Hawk,
+
+            HeadofIntelligence,
 
 
 
