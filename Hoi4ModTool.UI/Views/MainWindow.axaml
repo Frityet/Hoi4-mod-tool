@@ -36,7 +36,6 @@
         </ExperimentalAcrylicBorder>
         
         <DockPanel Name="TopBar">
-            <controls:DirectorySelect/>
         </DockPanel>
         
         

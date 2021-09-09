@@ -62,8 +62,6 @@ namespace Hoi4ModTool.Core
 
             ConservativeNationalist,
 
-            ConservativeNationalist,
-
             ConstitutionalMonarch,
 
             ConstitutionalMonarchMinor,
