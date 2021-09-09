@@ -18,30 +18,49 @@ namespace Hoi4ModTool.Core
 // this gonna be a pain in the ass
         public enum LeaderTraits
         {
-            Dictator,
-            
-            WarriorCode,
 
-            UnderageMonarch,
+            AmericanCaesar,
 
-            LegitimateHeir,
+            AnarchistZeal,
 
-            CollaboratorKing,
+            AntiCommunist,
 
-            ImperialSanction,
+            AntiDemocrat,
 
-            EmperorShowa,
+            Appeaser,
 
-            WW1Trauma,
-
-            StoutDefender,
-
-            Warmonger,
-
-            InexperiencedImperialist,
+            AssassinationSurvivor,
 
             AutocraticImperialist,
-            
+
+            Basileus,
+
+            BritishBulldog,
+
+            CabinetCrisis,
+
+            CamarillaLeader,
+
+
+            Caudillo1,
+
+            Caudillo2,
+
+            ChampionofPeace1,
+
+            ChampionofPeace2,
+
+            ChampionofPeace3,
+
+            ChampionofPeace4,
+
+            ChampionofPeace5,
+
+            CominternWorkhorse,
+
+            ConservativeGrandee,
+
+
         }
 
     }
